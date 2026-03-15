@@ -1,0 +1,6 @@
+---
+- name: Generate router configuration files using Jinja2
+  template:
+    src: lab7.j2
+    dest: "./{{ item.hostname }}_config.cfg"
+  with_items: "{{ lab7Config }}"
