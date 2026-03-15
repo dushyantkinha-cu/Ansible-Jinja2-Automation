@@ -1,0 +1,23 @@
+{
+  "R1": {
+    "device_type": "cisco_ios",
+    "host": "198.51.100.10",
+    "username": "admin",
+    "password": "password",
+    "secret": "password"
+  },
+  "R2": {
+    "device_type": "cisco_ios",
+    "host": "198.51.100.20",
+    "username": "admin",
+    "password": "password",
+    "secret": "password"
+  },
+  "R3": {
+    "device_type": "cisco_ios",
+    "host": "198.51.100.30",
+    "username": "admin",
+    "password": "password",
+    "secret": "password"
+  }
+}

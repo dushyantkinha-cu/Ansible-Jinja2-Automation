@@ -1,0 +1,9 @@
+---
+- name: Config Generation
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - roles/router/vars/main.yml
+  roles:
+    - router
